@@ -14,8 +14,30 @@ return usersName;
 
 greetUser();
 
+
 //function above is done!
 
+let travelQuest = prompt ("Do you like to travel?")
+console.log(travelQuest)
+
+if (travelQuest == "Yes") or ("yes")
+alert("Great, Let me help you then!");
+
+// New Function begins with a loop
+
+let userQuest;
+function userAnswer(){
+  let userQuest = prompt("What's your favorite Destination France, Greece or Italy?");
+  while(userQuest == ""){
+    userQuest= prompt("Please try again");
+  }
+  console.log(userQuest);
+  confirm("Did you say " + userQuest + "?");
+  document.write("Perfect, let's check out some interesting things about " + userQuest);
+}
+userAnswer();
+
+// My loop ended above
 
 let travelQuestion = prompt ("Do you like to travel?")
 console.log(travelQuestion)
@@ -36,6 +58,17 @@ console.log(lastQuestion)
 
 if (lastQuestion == "Yes") or ("yes")
 alert("You got it!!");
+
+function rateMyPage(){
+    let rating = prompt('How much do you like traveling from 1-10');
+    console.log(rating);
+
+    for (let i = 0; i < rating; i++){
+        console.log(i);
+        document.write("<img style='width:100px;' src='istockphoto-1319947943-170667a.jpeg' alt='blow mind pic' />");
+    }
+   
+}
 
 
 
@@ -104,3 +137,24 @@ alert("You got it!!");
 //}
 // numbers isnide the parenthesis here is arguements
 //addTwoNumbers(5, 10);
+
+
+
+
+
+
+//__________________________________________________________________________
+
+
+// loops ifinite loop (baddd.)
+
+// let i = 1;
+// while(true){
+//     console.log(i);
+//     i==;
+// }
+
+
+
+
+
