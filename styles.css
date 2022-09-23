@@ -42,4 +42,7 @@ height: 225px;
 width: 100%;
 height:100%;
 }
-
+function greet(name) {
+    return "Hello, " + name;
+  }
+  greet("Grace Hopper");
