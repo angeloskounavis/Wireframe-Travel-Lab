@@ -1,76 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lan="en">
 
 <head>
-  <title>Best Traveling Destinations</title>
-  <link href="styles.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title> Welcome to 201!</title>
+  <style>
+    /* css comment */
+    body {
+      background-color: white;
+      background-image: url("allimages/dog.png");
+      background-size: 900px 600px;
+      background-repeat: no-repeat;
+      height:900px;
+      width:200px;
+    }
+
+    li {
+      color: red;
+    }
+
+    image1 {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+  </style>
 </head>
-<style type="text/css">
-  body{
-    background-image:url(mike-swigunski-k9Zeq6EH_bk-unsplash.jpg);
-    background-size: cover;
-  }
-</style>
 
 <body>
-  <script src="app.js"></script>
   <header>
-    <h1>Best Traveling Destinations</h1>
-    <nav>
-      <ul>
-        <li><a href="https://todd75.github.io/hello-world/">Todd Wolden Page</a></li>
-        <li><a href="https://www.codefellows.org/">Link 2</a></li>
-        <li><a href="https://www.codefellows.org/">Link 3</a></li>
-      </ul>
-    </nav>
+    <h1>Best Dogs to Own</h1>
   </header>
   <main>
-
-    <section>
-      <img src="download.jpg" alt="this is an image of Paris" class="image-container" />
-      <h3>Θέλετε να το δημιουργήσετε; Ελέγξτε πρώτα ότι το θέμα δεν έχει ήδη καλυφθεί 
-        στα παρακάτω αποτελέσματα και, στη συνέχεια, βεβαιωθείτε ότι είναι</h3>
-    </section>
-
-
-    <section>
-      <img src="image_2.jpeg" alt="this is an image of Greece" class="image-container" />
-      <h3>Son dimensionnement est imposé par des règles aérodynamiques. Il n'est pas rare de doter un avion de deux
-        dérives, qui peuvent alors assurer les mêmes fonctions de stabilité et de contrôle tout en ayant des dimensions
-        plus petites. La position de la dérive par rapport à l'avion est aussi mise à profit pour</h3>
-    </section>
-
-    <section>
-      <img src="image_3.jpeg" alt="this is an image of Italy" class="image-container" />
-      <h3>L'interno della chiesa è arricchito da varie opere d'arte, che sono state realizzate nei secoli mantenendo lo
-        stile cinquecentesco lombardo - con influenze quattrocentesche - delle prime produzioni artistiche. Le
-        decorazioni più importanti conservate nella basilica sono gli</h3>
-    </section>
-
-    <section>
-      <img src="" alt="" />
-      <h3></h3>
-    </section>
-    <script>
-      rateMyPage();
-    </script>
+    <p style="color: blue;">this paragraph is going to be about dogs</p>
+    <ul>
+      <!--html comment: make notes for yourself-->
+      <li>HTML</li>
+      <li style="color: green;">CSS</li>
+      <li>JavaScript</li>
+    </ul>
+    
+    <img
+      src="https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80"
+      alt="dog running on the beach" width="300 ">
+   
   </main>
-
   <footer>
-    <p>&copy; 102D43</p>
+    My sources
   </footer>
+
+  <script>
+
+    let userName = prompt("Hello there, what's your name?");
+    alert("Nice to meet you " + userName);
+    console.log(userName);
+
+    let doYouLikeDogs = prompt(userName + " do you like dogs?")
+    console.log(doYouLikeDogs);
+
+    if (doYouLikeDogs.toLowerCase() == "yes") {
+      alert("Perfect, you will love what comes next");
+    }
+    else if (doYouLikeDogs.toLowerCase() == "no") {
+      alert("Oh nooo, well stick around and I am sure you by the end of my page you will");
+    }
+
+    let dogName = prompt("if you had a dog what would you name it?");
+    alert("That's a cool name!!");
+    console.log(dogName)
+
+    let lastQuestion = prompt("Are you ready to check out some cool doggies")
+    console.log(lastQuestion)
+
+    if (lastQuestion.toLowerCase() == "yes") {
+      alert("Awesome,lets go then")
+    }
+    else if (lastQuestion.toLowerCase() == "no") {
+      alert("Oh come on now I know you are joking let me show you....");
+    }
+
+  </script>
 </body>
 
-</html>
-
-
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Best Traveling Destinations</title>
-    </head>
-    <body>
-       <p>This exercise covers basic HTML topics</p>
-    </body>
 </html>
